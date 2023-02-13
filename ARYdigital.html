@@ -21,7 +21,7 @@ border: 0;}.sldp_player_wrp {width: 100% !important;height: 100% !important;}#li
  </div><script src="https://cdn.plyr.io/1.8.2/plyr.js"></script><script src="https://cdn.jsdelivr.net/hls.js/latest/hls.js"></script>
  <script type="text/javascript">(function () {
  var video = document.querySelector('#player');
- var videoSrc = "https://arydigital.aryzap.com/a53c1076f9b5c634e6118e76da426a45/63ce79e3/v1/0183ea2408f90b8ed5941a38bc72/0183ea24302d0b8ed5941a38bc75/ARYDigitalHDh264_video_480p.m3u8";
+ var videoSrc = "https://arydigital.aryzap.com/2c0dc4a7783f91621a9b4229e05850cb/63eb96ba/v1/0183ea2408f90b8ed5941a38bc72/0183ea24302d0b8ed5941a38bc75/ARYDigitalHDh264_720p.m3u8";
  if (Hls.isSupported()) {
  var hls = new Hls();hls.loadSource(videoSrc);hls.attachMedia(video);hls.on(Hls.Events.MANIFEST_PARSED,function() {video.play();});}
  else if(video.canPlayType('application/vnd.apple.mpegURL'))
