@@ -21,7 +21,7 @@ border: 0;}.sldp_player_wrp {width: 100% !important;height: 100% !important;}#li
  </div><script src="https://cdn.plyr.io/1.8.2/plyr.js"></script><script src="https://cdn.jsdelivr.net/hls.js/latest/hls.js"></script>
  <script type="text/javascript">(function () {
  var video = document.querySelector('#player');
- var videoSrc = "https://aryqtv.aryzap.com/087d22f6d832139980800e720eaa4d6a/63ce7b8c/v1/0183ea2a0eec0b8ed5941a38bc76/0183ea2a4e470b8ed5aa4d793457/ARYQTVH264_720p.m3u8";
+ var videoSrc = "https://aryqtv.aryzap.com/61201fd196206fe51e4b95d106eb9480/63eb93cd/v1/0183ea2a0eec0b8ed5941a38bc76/0183ea2a4e470b8ed5aa4d793457/ARYQTVH264_1080p.m3u8";
  if (Hls.isSupported()) {
  var hls = new Hls();hls.loadSource(videoSrc);hls.attachMedia(video);hls.on(Hls.Events.MANIFEST_PARSED,function() {video.play();});}
  else if(video.canPlayType('application/vnd.apple.mpegURL'))
