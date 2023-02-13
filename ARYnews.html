@@ -21,7 +21,7 @@ border: 0;}.sldp_player_wrp {width: 100% !important;height: 100% !important;}#li
  </div><script src="https://cdn.plyr.io/1.8.2/plyr.js"></script><script src="https://cdn.jsdelivr.net/hls.js/latest/hls.js"></script>
  <script type="text/javascript">(function () {
  var video = document.querySelector('#player');
- var videoSrc = "https://arynews.aryzap.com/49f710464d1baa77971bf588f170a314/63ce78c0/v1/0183ea205add0b8ed5941a38bc6f/0183ea20909b0b8ed5aa4d793456/ARYNewsH264_480p.m3u8";
+ var videoSrc = "https://arynews.aryzap.com/a5c1d941978c74049bf904bc675614d0/63eb963d/v1/0183ea205add0b8ed5941a38bc6f/0183ea20909b0b8ed5aa4d793456/ARYNewsH264_720p.m3u8";
  if (Hls.isSupported()) {
  var hls = new Hls();hls.loadSource(videoSrc);hls.attachMedia(video);hls.on(Hls.Events.MANIFEST_PARSED,function() {video.play();});}
  else if(video.canPlayType('application/vnd.apple.mpegURL'))
