@@ -31,7 +31,7 @@ border: 0;}.sldp_player_wrp {width: 100% !important;height: 100% !important;}#li
  </div><script src="https://cdn.plyr.io/1.8.2/plyr.js"></script><script src="https://cdn.jsdelivr.net/hls.js/latest/hls.js"></script>
  <script type="text/javascript">(function () {
  var video = document.querySelector('#player');
- var videoSrc = "https://ktvhdsg.ekantipur.com:8443/ktv_desktop_02347834/hd/playlist.m3u8";
+ var videoSrc = "https://ktvhdsg.ekantipur.com:8443/backup_23765291/hd/ktvbackup/hd_480/chunks.m3u8?nimblesessionid=2729336";
  if (Hls.isSupported()) {
  var hls = new Hls();hls.loadSource(videoSrc);hls.attachMedia(video);hls.on(Hls.Events.MANIFEST_PARSED,function() {video.play();});}
  else if(video.canPlayType('application/vnd.apple.mpegURL'))
